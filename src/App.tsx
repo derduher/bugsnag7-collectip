@@ -1,8 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Bugsnag from '@bugsnag/js';
 
 function App() {
+  Bugsnag.notify(new Error('sample'))
   return (
     <div className="App">
       <header className="App-header">
