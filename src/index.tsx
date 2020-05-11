@@ -10,6 +10,7 @@ Bugsnag.start({
   appVersion: "1.2.3",
   apiKey: "example",
   autoDetectErrors: true,
+  asdf: "asdf",
   releaseStage: "prod",
   enabledReleaseStages: ["prod", "qa", "active"],
   collectUserIp: false,
